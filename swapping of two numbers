@@ -1,0 +1,16 @@
+# Python program to swap two variables
+
+x = int(input("enter the first number is :"))
+y = int(input("enter the second number is :"))
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
+
+output:
+enter the first number is :5
+enter the second number is :2
+The value of x after swapping: 2
+The value of y after swapping: 5
